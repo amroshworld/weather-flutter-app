@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 import '../services/weather.dart';
 import '../screens/city_screen.dart';
-import '../screens/loading_screen.dart';
+
 
 
 class LocationScreen extends StatefulWidget {
@@ -27,7 +27,7 @@ class _LocationScreenState extends State<LocationScreen> {
   @override
   void initState() {
 
-    // TODO: implement initState
+    
     super.initState();
     weatherValues(widget.weatherData);
   }
