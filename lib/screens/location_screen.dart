@@ -110,9 +110,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       ),
                     ),
                     Expanded(
-                      child: Expanded(
-                        child: Image.asset(weatherIcon),
-                      ),
+                      child: Image.asset(weatherIcon),
                     ),
                   ],
                 ),
